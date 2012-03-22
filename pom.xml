@@ -144,11 +144,13 @@
 					<contextRoot>${project.build.finalName}</contextRoot>
 					<name>${project.build.finalName}</name>
 				</configuration>
+				<dependencies>
 				 <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
-      <version>1.2.145</version>
-    </dependency>
+					<groupId>com.h2database</groupId>
+					<artifactId>h2</artifactId>
+					<version>1.2.145</version>
+				</dependency>
+				</dependencies>
 			</plugin>
     </plugins>
   </build>
