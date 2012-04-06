@@ -12,7 +12,7 @@
 <category name="com.sun.enterprise" additivity="false">
 		<priority value="warn"/>
 		<appender-ref ref="console"/>
-	</category> -
+	</category> 
 
     <root>
         <priority value="warn"/>

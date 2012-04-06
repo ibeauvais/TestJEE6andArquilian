@@ -25,9 +25,10 @@ public class TestProductServiceTest extends AbstractTest{
 	@Test
 	public void TestCreate2(){
 		
-		Product product=productService.createProduct("stylo",1.2, 1L);
+		Product product=productService.createProduct("chaise",5.0, 1L);
 		Assert.assertNotNull(product.getId());
-		
+		Product product2=productService.createProduct("table",6.0, 1L);
+		Assert.assertNotNull(product2.getId());
 	}
 
 }
