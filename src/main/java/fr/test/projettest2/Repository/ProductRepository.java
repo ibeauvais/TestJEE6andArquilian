@@ -2,12 +2,13 @@ package fr.test.projettest2.Repository;
 
 import java.util.List;
 
+import javax.inject.Singleton;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 
 import fr.test.projettest2.domain.Product;
-
+@Singleton
 public class ProductRepository {
 
 	@PersistenceContext

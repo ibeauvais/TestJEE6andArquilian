@@ -120,6 +120,7 @@
           <downloadJavadocs>true</downloadJavadocs>
           <wtpversion>1.5</wtpversion>
           <additionalProjectFacets>
+           <jst.jsf>2.0</jst.jsf>
             <jst.web>3.0</jst.web>
             <wst.jsdt.web>1.0</wst.jsdt.web>
           </additionalProjectFacets>
@@ -165,11 +166,11 @@
       <id>JBOSS_NEXUS</id>
       <url>http://repository.jboss.org/nexus/content/groups/public</url>
     </repository>
-    <repository>
+<!--     <repository>
       <id>java.net-public-repository-group</id>
       <name>Java.Net Public Maven Repository Group</name>
       <url>https://maven.java.net/content/groups/public</url>
-    </repository>
+    </repository> 
     <repository>
       <id>java.net-staging-repository-group</id>
       <name>Java.Net Staging Maven Repository Group</name>
@@ -184,7 +185,7 @@
       <id>java.net-snapshots-repository-group</id>
       <name>Java.Net Snapshots Maven Repository Group</name>
       <url>https://maven.java.net/content/repositories/snapshots</url>
-	  </repository>
+	  </repository>-->
  <repository>
       <id>glassFish-repo</id>
       <name>glassFish repo</name>
